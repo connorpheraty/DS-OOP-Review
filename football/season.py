@@ -5,7 +5,8 @@ from game import Game
 from random import randint, uniform, sample
 
 
-def generate_rand_games(n=15):
+
+def generate_rand_games(n=64):
     '''Generate n random games using value lists in possible_values
     '''
     # Begin with enpty list

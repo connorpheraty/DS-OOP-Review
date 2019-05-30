@@ -21,7 +21,8 @@ class Player:
         '''
         td_points = 6 * self.stats['td']
         safety_points = 2 * self.stats['safety']
-        total_points = td_points + safety_points
+        fg_points = 3 * self.stats['fg']
+        total_points = td_points + safety_points + fg_points
         return total_points
 
 
